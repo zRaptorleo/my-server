@@ -1,0 +1,634 @@
+[00:33:25] [main/INFO] [STDOUT/]: Update in check...
+[00:33:25] [main/INFO] [STDOUT/]: If you don't want to enable update check, set check_update in mohist-config/mohist.yml to false
+[00:33:26] [main/INFO] [STDOUT/]: The latest Mohist version is 1.16.5-1243 but you have 1.16.5-1241. The latest version has been built on 2024-10-15 09:56:20. You should update to fix recent bugs !
+[00:33:26] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.mohistVersion, 1241, --fml.forgeVersion, 36.2.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, com.mohistmc, nogui]
+[00:33:26] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher mohist-8.1.3 starting: java version 21.0.4 by Microsoft
+[00:33:26] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[00:33:26] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/my-server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[00:33:27] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[00:33:34] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `debug`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:33:34] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `citadel_book`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:33:34] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `effect_item`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:33:34] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `fancy_item`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:33:34] [modloading-worker-0/INFO] [red.felnull.otyacraftengine.OtyacraftEngine/]: Loading Client Config
+[00:33:34] [modloading-worker-0/INFO] [red.felnull.imp.client.config.ClientConfig/]: Loading Client Config
+[00:33:34] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
+[00:33:34] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
+[00:33:34] [modloading-worker-0/INFO] [com.mohistmc.MohistMC/]: EventDispatcherRegistry initialized
+[00:33:36] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `otyacraftengine` for name `music_sharing_device`, expected `iammusicplayer`. This could be a intended override, but in most cases indicates a broken mod.
+[00:33:36] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `otyacraftengine` for name `cassette_deck`, expected `iammusicplayer`. This could be a intended override, but in most cases indicates a broken mod.
+[00:33:36] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `otyacraftengine` for name `boombox`, expected `iammusicplayer`. This could be a intended override, but in most cases indicates a broken mod.
+[00:33:36] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `otyacraftengine` for name `cassette_storage`, expected `iammusicplayer`. This could be a intended override, but in most cases indicates a broken mod.
+[00:33:37] [modloading-worker-0/INFO] [STDERR/]: [red.felnull.imp.libs.org.slf4j.helpers.Util:report:128]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+[00:33:37] [modloading-worker-0/INFO] [STDERR/]: [red.felnull.imp.libs.org.slf4j.helpers.Util:report:128]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+[00:33:37] [modloading-worker-0/INFO] [STDERR/]: [red.felnull.imp.libs.org.slf4j.helpers.Util:report:128]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[00:33:44] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:33:45] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, mohist-1.16.5-1241-universal.jar, bukkit, OtyacraftEngine-1.16.5-1.23.jar, IamMusicPlayer-1.16.5-2.9.jar, BiomesOPlenty-1.16.5-13.1.0.488-universal.jar, citadel-1.8.1-1.16.5.jar, iceandfire-2.1.12-1.16.5-patch-1.jar, mowziesmobs-1.5.27.jar, geckolib-forge-1.16.5-3.0.106.jar
+[00:33:46] [Worker-Main-5/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1,188 recipes
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: mowziesmobs:painted_acacia Expected: 763 Got: 1179
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: mowziesmobs:painted_acacia_slab Expected: 764 Got: 1180
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: mowziesmobs:thatch_block Expected: 765 Got: 1181
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:foliaath_seed Expected: 1263 Got: 1843
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:mob_remover Expected: 1264 Got: 1844
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:wrought_axe Expected: 1265 Got: 1845
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:wrought_helmet Expected: 1266 Got: 1846
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:barakoa_mask_fury Expected: 1267 Got: 1847
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:barakoa_mask_fear Expected: 1268 Got: 1848
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:barakoa_mask_rage Expected: 1269 Got: 1849
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:barakoa_mask_bliss Expected: 1270 Got: 1850
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:barakoa_mask_misery Expected: 1271 Got: 1851
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:barakoa_mask_faith Expected: 1272 Got: 1852
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:barako_mask Expected: 1273 Got: 1853
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:dart Expected: 1274 Got: 1854
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:spear Expected: 1275 Got: 1855
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:sunblock_staff Expected: 1276 Got: 1856
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:blowgun Expected: 1277 Got: 1857
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:grant_suns_blessing Expected: 1278 Got: 1858
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:ice_crystal Expected: 1279 Got: 1859
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:earth_talisman Expected: 1280 Got: 1860
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:captured_grottol Expected: 1281 Got: 1861
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:glowing_jelly Expected: 1282 Got: 1862
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:naga_fang Expected: 1283 Got: 1863
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:naga_fang_dagger Expected: 1284 Got: 1864
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:earthbore_gauntlet Expected: 1285 Got: 1865
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:logo Expected: 1286 Got: 1866
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:music_disc_petiole Expected: 1287 Got: 1867
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:foliaath_spawn_egg Expected: 1288 Got: 1868
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut_spawn_egg Expected: 1289 Got: 1869
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:barakoa_spawn_egg Expected: 1290 Got: 1870
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:barakoana_spawn_egg Expected: 1291 Got: 1871
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:barakoa_sunblocker_spawn_egg Expected: 1292 Got: 1872
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:barako_spawn_egg Expected: 1293 Got: 1873
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:frostmaw_spawn_egg Expected: 1294 Got: 1874
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:grottol_spawn_egg Expected: 1295 Got: 1875
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:lantern_spawn_egg Expected: 1296 Got: 1876
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:naga_spawn_egg Expected: 1297 Got: 1877
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:painted_acacia Expected: 1298 Got: 1878
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:painted_acacia_slab Expected: 1299 Got: 1879
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: mowziesmobs:thatch_block Expected: 1300 Got: 1880
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:laser Expected: 992 Got: 1119
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:sunstrike Expected: 993 Got: 1120
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.pre_swing1 Expected: 994 Got: 1121
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.pre_swing2 Expected: 995 Got: 1122
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.pre_swing3 Expected: 996 Got: 1123
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.creak Expected: 997 Got: 1124
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.swing1 Expected: 998 Got: 1125
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.swing2 Expected: 999 Got: 1126
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.swing3 Expected: 1000 Got: 1127
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.shout1 Expected: 1001 Got: 1128
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.shout2 Expected: 1002 Got: 1129
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.shout3 Expected: 1003 Got: 1130
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.pull1 Expected: 1004 Got: 1131
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.pull2 Expected: 1005 Got: 1132
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.pull5 Expected: 1006 Got: 1133
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.release2 Expected: 1007 Got: 1134
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.whoosh Expected: 1008 Got: 1135
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.hurt1 Expected: 1009 Got: 1136
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.scream Expected: 1010 Got: 1137
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.grunt1 Expected: 1011 Got: 1138
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.grunt2 Expected: 1012 Got: 1139
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.grunt3 Expected: 1013 Got: 1140
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.ambient Expected: 1014 Got: 1141
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.step Expected: 1015 Got: 1142
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.undamaged Expected: 1016 Got: 1143
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.axe_land Expected: 1017 Got: 1144
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:wroughtnaut.axe_hit Expected: 1018 Got: 1145
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.inhale Expected: 1019 Got: 1146
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.blowdart Expected: 1020 Got: 1147
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.battlecry Expected: 1021 Got: 1148
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.battlecry2 Expected: 1022 Got: 1149
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.swing Expected: 1023 Got: 1150
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.emerge Expected: 1024 Got: 1151
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.retract Expected: 1025 Got: 1152
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.hurt Expected: 1026 Got: 1153
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.die Expected: 1027 Got: 1154
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.shout Expected: 1028 Got: 1155
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.talk1 Expected: 1029 Got: 1156
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.talk2 Expected: 1030 Got: 1157
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.talk3 Expected: 1031 Got: 1158
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.talk4 Expected: 1032 Got: 1159
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.talk5 Expected: 1033 Got: 1160
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.talk6 Expected: 1034 Got: 1161
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.talk7 Expected: 1035 Got: 1162
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.angry1 Expected: 1036 Got: 1163
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.angry2 Expected: 1037 Got: 1164
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.angry3 Expected: 1038 Got: 1165
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.angry4 Expected: 1039 Got: 1166
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.angry5 Expected: 1040 Got: 1167
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.angry6 Expected: 1041 Got: 1168
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.healstart1 Expected: 1042 Got: 1169
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.healstart2 Expected: 1043 Got: 1170
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.healstart3 Expected: 1044 Got: 1171
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.teleport1 Expected: 1045 Got: 1172
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.teleport2 Expected: 1046 Got: 1173
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.teleport3 Expected: 1047 Got: 1174
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barakoa.healloop Expected: 1048 Got: 1175
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barako.belly Expected: 1049 Got: 1176
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barako.burst Expected: 1050 Got: 1177
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barako.scream Expected: 1051 Got: 1178
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:supernova.start Expected: 1052 Got: 1179
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:supernova.blackhole Expected: 1053 Got: 1180
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:supernova.end Expected: 1054 Got: 1181
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barako.attack Expected: 1055 Got: 1182
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barako.hurt Expected: 1056 Got: 1183
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barako.die Expected: 1057 Got: 1184
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barako.bless Expected: 1058 Got: 1185
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barako.talk1 Expected: 1059 Got: 1186
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barako.talk2 Expected: 1060 Got: 1187
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barako.talk3 Expected: 1061 Got: 1188
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barako.talk4 Expected: 1062 Got: 1189
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barako.talk5 Expected: 1063 Got: 1190
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barako.talk6 Expected: 1064 Got: 1191
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barako.angry1 Expected: 1065 Got: 1192
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barako.angry2 Expected: 1066 Got: 1193
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barako.angry3 Expected: 1067 Got: 1194
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barako.angry4 Expected: 1068 Got: 1195
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barako.angry5 Expected: 1069 Got: 1196
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:barako.angry6 Expected: 1070 Got: 1197
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:foliaath.grunt Expected: 1071 Got: 1198
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:foliaath.rustle Expected: 1072 Got: 1199
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:foliaath.emerge Expected: 1073 Got: 1200
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:foliaath.retreat Expected: 1074 Got: 1201
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:foliaath.pant1 Expected: 1075 Got: 1202
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:foliaath.pant2 Expected: 1076 Got: 1203
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:foliaath.bite1 Expected: 1077 Got: 1204
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:foliaath.hurt Expected: 1078 Got: 1205
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:foliaath.die Expected: 1079 Got: 1206
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:foliaath.baby.eat Expected: 1080 Got: 1207
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.roar Expected: 1081 Got: 1208
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.die Expected: 1082 Got: 1209
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.whoosh Expected: 1083 Got: 1210
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.icebreath Expected: 1084 Got: 1211
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.icebreathstart Expected: 1085 Got: 1212
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.iceballcharge Expected: 1086 Got: 1213
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.iceballshoot Expected: 1087 Got: 1214
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.frozencrash Expected: 1088 Got: 1215
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.step Expected: 1089 Got: 1216
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.land Expected: 1090 Got: 1217
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.attack1 Expected: 1091 Got: 1218
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.attack2 Expected: 1092 Got: 1219
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.attack3 Expected: 1093 Got: 1220
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.attack4 Expected: 1094 Got: 1221
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.breath1 Expected: 1095 Got: 1222
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.breath2 Expected: 1096 Got: 1223
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.living1 Expected: 1097 Got: 1224
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.living2 Expected: 1098 Got: 1225
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:frostmaw.wakeup Expected: 1099 Got: 1226
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:grottol.step Expected: 1100 Got: 1227
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:grottol.undamaged Expected: 1101 Got: 1228
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:grottol.burrow Expected: 1102 Got: 1229
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:grottol.die Expected: 1103 Got: 1230
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:lantern.pop Expected: 1104 Got: 1231
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:lantern.puff Expected: 1105 Got: 1232
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:naga.acidcharge Expected: 1106 Got: 1233
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:naga.acidhit Expected: 1107 Got: 1234
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:naga.acidspit Expected: 1108 Got: 1235
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:naga.acidspithiss Expected: 1109 Got: 1236
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:naga.flap1 Expected: 1110 Got: 1237
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:naga.growl1 Expected: 1111 Got: 1238
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:naga.growl2 Expected: 1112 Got: 1239
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:naga.growl3 Expected: 1113 Got: 1240
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:naga.grunt1 Expected: 1114 Got: 1241
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:naga.grunt2 Expected: 1115 Got: 1242
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:naga.grunt3 Expected: 1116 Got: 1243
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:naga.roar1 Expected: 1117 Got: 1244
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:naga.roar2 Expected: 1118 Got: 1245
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:naga.roar3 Expected: 1119 Got: 1246
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:naga.roar4 Expected: 1120 Got: 1247
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:naga.swoop Expected: 1121 Got: 1248
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:geomancy.smallcrash Expected: 1122 Got: 1249
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:geomancy.hitsmall Expected: 1123 Got: 1250
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:geomancy.hitbig Expected: 1124 Got: 1251
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:geomancy.breaklarge Expected: 1125 Got: 1252
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:geomancy.breaklarge2 Expected: 1126 Got: 1253
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:geomancy.breakmedium Expected: 1127 Got: 1254
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:geomancy.breakmedium2 Expected: 1128 Got: 1255
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:geomancy.breakmedium3 Expected: 1129 Got: 1256
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:geomancy.hit Expected: 1130 Got: 1257
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:geomancy.hitmedium Expected: 1131 Got: 1258
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:geomancy.hitmedium2 Expected: 1132 Got: 1259
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:geomancy.rockbreak Expected: 1133 Got: 1260
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:geomancy.rockcrash1 Expected: 1134 Got: 1261
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:geomancy.rockcrumble Expected: 1135 Got: 1262
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:geomancy.rumble1 Expected: 1136 Got: 1263
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:geomancy.rumble2 Expected: 1137 Got: 1264
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:geomancy.rumble3 Expected: 1138 Got: 1265
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:geomancy.smallrockhit Expected: 1139 Got: 1266
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:geomancy.bouldercharge Expected: 1140 Got: 1267
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:geomancy.magicchargesmall Expected: 1141 Got: 1268
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:misc.groundhit1 Expected: 1142 Got: 1269
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:misc.groundhit2 Expected: 1143 Got: 1270
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:music.black_pink Expected: 1144 Got: 1271
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:music.petiole Expected: 1145 Got: 1272
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:music.barako_theme Expected: 1146 Got: 1273
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:music.ferrous_wroughtnaut_theme Expected: 1147 Got: 1274
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: mowziesmobs:music.frostmaw_theme Expected: 1148 Got: 1275
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:foliaath Expected: 108 Got: 167
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:baby_foliaath Expected: 109 Got: 168
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:ferrous_wroughtnaut Expected: 110 Got: 169
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:barakoan_barakoana Expected: 111 Got: 170
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:barakoan_player Expected: 112 Got: 171
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:barakoa_sunblocker_player Expected: 113 Got: 172
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:barakoaya Expected: 114 Got: 173
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:barakoana Expected: 115 Got: 174
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:barakoa_sunblocker Expected: 116 Got: 175
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:barako Expected: 117 Got: 176
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:frostmaw Expected: 118 Got: 177
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:grottol Expected: 119 Got: 178
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:lantern Expected: 120 Got: 179
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:naga Expected: 121 Got: 180
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:sunstrike Expected: 122 Got: 181
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:solar_beam Expected: 123 Got: 182
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:boulder_small Expected: 124 Got: 183
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:boulder_medium Expected: 125 Got: 184
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:boulder_large Expected: 126 Got: 185
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:boulder_huge Expected: 127 Got: 186
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:axe_attack Expected: 128 Got: 187
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:ice_breath Expected: 129 Got: 188
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:ice_ball Expected: 130 Got: 189
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:frozen_controller Expected: 131 Got: 190
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:dart Expected: 132 Got: 191
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:poison_ball Expected: 133 Got: 192
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:super_nova Expected: 134 Got: 193
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:falling_block Expected: 135 Got: 194
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:block_swapper Expected: 136 Got: 195
+[00:33:48] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: mowziesmobs:camera_shake Expected: 137 Got: 196
+[00:33:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[00:33:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[00:33:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[00:33:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[00:33:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25,565
+[00:33:49] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[00:33:49] [Server thread/INFO] [Minecraft/]: This server is running Mohist version 1.16.5-1241 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT, Forge version 36.2.42)
+[00:33:51] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[00:33:51] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
+[00:33:51] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[00:33:51] [Server thread/INFO] [/]: Loaded inheritance map of 2322 classes
+[00:33:54] [Server thread/INFO] [me.minebuilders.clearlag.Clearlag/]: [ClearLag] Loading ClearLag v3.2.2
+[00:33:54] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading LuckPerms v5.4.131
+[00:33:59] [Server thread/INFO] [me.lucko.spark.bukkit.BukkitSparkPlugin/]: [spark] Loading spark v1.10.71
+[00:33:59] [Server thread/INFO] [at.pcgamingfreaks.Minepacks.Bukkit.MinepacksBadRabbit/]: [Minepacks] Loading Minepacks v2.4.31.4-T20240629215752
+[00:33:59] [Server thread/INFO] [at.pcgamingfreaks.Minepacks.Bukkit.MinepacksBadRabbit/]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[00:33:59] [Server thread/INFO] [de.tr7zw.nbtapi.plugin.NBTAPI/]: [NBTAPI] Loading NBTAPI v2.14.0
+[00:33:59] [Server thread/INFO] [NBTAPI/]: [NBTAPI] Found Minecraft: v1_16_R3! Trying to find NMS support
+[00:33:59] [Server thread/INFO] [NBTAPI/]: [NBTAPI] NMS support 'MC1_16_R3' loaded!
+[00:33:59] [Server thread/INFO] [NBTAPI/]: [NBTAPI] Using the plugin 'NBTAPI' to create a bStats instance!
+[00:33:59] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Loading Essentials v2.21.0-dev+141-c7cc1b4
+[00:33:59] [Server thread/INFO] [com.comphenix.protocol.ProtocolLib/]: [ProtocolLib] Loading ProtocolLib v5.3.0
+[00:33:59] [Thread-4/INFO] [NBTAPI/]: [NBTAPI] The NBT-API seems to be up-to-date!
+[00:34:00] [Server thread/INFO] [com.ranull.graves.Graves/]: [Graves] Loading Graves v4.9
+[00:34:01] [Server thread/INFO] [[38;5;11m⚡[0m/]: Loading LagFixer v1.3.31 (build 95)[0m
+[00:34:01] [Server thread/INFO] [com.alonsoaliaga.betterrevive.BetterRevive/]: [BetterRevive] Loading BetterRevive v0.9.1-BETA
+[00:34:01] [Server thread/INFO] [net.skinsrestorer.bukkit.SRBukkitBootstrap/]: [SkinsRestorer] Loading SkinsRestorer v15.4.4
+[00:34:01] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Enabling LuckPerms v5.4.131
+[00:34:03] [Server thread/INFO] [/]:         __    
+[00:34:03] [Server thread/INFO] [/]:   |    |__)   LuckPerms v5.4.131
+[00:34:03] [Server thread/INFO] [/]:   |___ |      Running on Bukkit - Mohist
+[00:34:03] [Server thread/INFO] [/]: 
+[00:34:03] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading configuration...
+[00:34:04] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading storage provider... [H2]
+[00:34:10] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading internal permission managers...
+[00:34:10] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Performing initial data load...
+[00:34:11] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Successfully enabled. (took 9982ms)
+[00:34:11] [Server thread/INFO] [com.comphenix.protocol.ProtocolLib/]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[00:34:11] [Server thread/INFO] [net.skinsrestorer.bukkit.SRBukkitBootstrap/]: [SkinsRestorer] Enabling SkinsRestorer v15.4.4
+[00:34:13] [Server thread/WARN] [Minecraft/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
+[00:34:14] [Server thread/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.16.5[32;1m.[0;39m
+[00:34:16] [Server thread/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
+[00:34:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[00:34:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[00:34:18] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[00:34:18] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 45%
+[00:34:20] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[00:34:20] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 87%
+[00:34:22] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 88%
+[00:34:23] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[00:34:23] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 97%
+[00:34:23] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 6,692 ms
+[00:34:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:the_nether
+[00:34:24] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[00:34:24] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[00:34:26] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 88%
+[00:34:27] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 95%
+[00:34:27] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 3,678 ms
+[00:34:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:the_end
+[00:34:27] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[00:34:28] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[00:34:28] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 771 ms
+[00:34:28] [Server thread/INFO] [me.minebuilders.clearlag.Clearlag/]: [ClearLag] Enabling ClearLag v3.2.2
+[00:34:28] [Server thread/INFO] [Minecraft/]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[00:34:28] [Server thread/INFO] [Minecraft/]: [ClearLag] Config not found. Generating default config...
+[00:34:28] [Server thread/INFO] [Minecraft/]: [ClearLag] Loading modules...
+[00:34:28] [Server thread/INFO] [Minecraft/]: [ClearLag] Modules enabed, loading config values
+[00:34:28] [Server thread/INFO] [Minecraft/]: [ClearLag] Modules have been loaded!
+[00:34:28] [Server thread/INFO] [Minecraft/]: [ClearLag] Clearlag is now enabled!
+[00:34:28] [Server thread/INFO] [me.lucko.spark.bukkit.BukkitSparkPlugin/]: [spark] Enabling spark v1.10.71
+[00:34:28] [Thread-13/INFO] [Minecraft/]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
+[00:34:28] [Thread-13/INFO] [Minecraft/]: [ClearLag] No updates found!
+[00:34:29] [Server thread/INFO] [me.lucko.spark.bukkit.BukkitSparkPlugin/]: [spark] Using Bukkit scheduler for tick monitoring
+[00:34:29] [Server thread/INFO] [me.lucko.spark.bukkit.BukkitSparkPlugin/]: [spark] Starting background profiler...
+[00:34:29] [Server thread/INFO] [at.pcgamingfreaks.MinepacksStandalone.Bukkit.Minepacks/]: [Minepacks] Enabling Minepacks v2.4.31.4-T20240629215752
+[00:34:29] [Server thread/INFO] [at.pcgamingfreaks.MinepacksStandalone.Bukkit.Minepacks/]: [Minepacks] Starting Minepacks in standalone mode!
+[00:34:29] [Server thread/INFO] [at.pcgamingfreaks.MinepacksStandalone.Bukkit.Minepacks/]: [Minepacks] File "/config.yml" extracted successfully!
+[00:34:29] [Server thread/INFO] [at.pcgamingfreaks.MinepacksStandalone.Bukkit.Minepacks/]: [Minepacks] [32mConfig file successfully loaded.[0m
+[00:34:29] [Server thread/INFO] [at.pcgamingfreaks.MinepacksStandalone.Bukkit.Minepacks/]: [Minepacks] File "/lang/en.yml" extracted successfully!
+[00:34:29] [Server thread/INFO] [at.pcgamingfreaks.MinepacksStandalone.Bukkit.Minepacks/]: [Minepacks] [32mLanguage file successfully loaded. Language: english  Author: GeorgH93[0m
+[00:34:30] [Server thread/INFO] [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource/]: Minepacks-Connection-Pool - Starting...
+[00:34:30] [Server thread/INFO] [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource/]: Minepacks-Connection-Pool - Start completed.
+[00:34:30] [Server thread/INFO] [at.pcgamingfreaks.MinepacksStandalone.Bukkit.Minepacks/]: [Minepacks] File "/lang/items_en.yml" extracted successfully!
+[00:34:30] [Server thread/INFO] [at.pcgamingfreaks.MinepacksStandalone.Bukkit.Minepacks/]: [Minepacks] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
+[00:34:30] [Server thread/INFO] [at.pcgamingfreaks.MinepacksStandalone.Bukkit.Minepacks/]: [Minepacks] Loading item translations ...
+[00:34:30] [Server thread/INFO] [at.pcgamingfreaks.MinepacksStandalone.Bukkit.Minepacks/]: [Minepacks] Finished loading item translations for 829 items.
+[00:34:30] [Server thread/INFO] [at.pcgamingfreaks.MinepacksStandalone.Bukkit.Minepacks/]: [Minepacks] [32m Minepacks has been enabled! [33m :) [0m
+[00:34:30] [Server thread/INFO] [de.tr7zw.nbtapi.plugin.NBTAPI/]: [NBTAPI] Enabling NBTAPI v2.14.0
+[00:34:30] [Server thread/INFO] [de.tr7zw.nbtapi.plugin.NBTAPI/]: [NBTAPI] Checking bindings...
+[00:34:30] [Server thread/INFO] [de.tr7zw.nbtapi.plugin.NBTAPI/]: [NBTAPI] All Classes were able to link!
+[00:34:30] [Server thread/INFO] [de.tr7zw.nbtapi.plugin.NBTAPI/]: [NBTAPI] All Methods were able to link!
+[00:34:30] [Server thread/INFO] [de.tr7zw.nbtapi.plugin.NBTAPI/]: [NBTAPI] Running NBT reflection test...
+[00:34:31] [Server thread/INFO] [de.tr7zw.nbtapi.plugin.NBTAPI/]: [NBTAPI] Success! This version of NBT-API is compatible with your server.
+[00:34:31] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Enabling Essentials v2.21.0-dev+141-c7cc1b4
+[00:34:31] [Server thread/WARN] [Essentials/]: Beginning Adventure locale file conversion.
+[00:34:32] [Server thread/ERROR] [Essentials/]: You are running a server that does not properly support Bukkit plugins. Bukkit plugins should not be used with Forge/Fabric mods! For Forge: Consider using ForgeEssentials, or SpongeForge + Nucleus.
+[00:34:32] [Server thread/INFO] [Essentials/]: Status determining class: brand:Mohist
+[00:34:32] [Server thread/INFO] [Essentials/]: Creating config from template: plugins/Essentials/config.yml
+[00:34:32] [Server thread/WARN] [Essentials/]: Missing userdata folder, aborting
+[00:34:32] [Server thread/INFO] [Essentials/]: Creating config from template: plugins/Essentials/kits.yml
+[00:34:32] [Server thread/INFO] [Essentials/]: Attempting to convert old kits in config.yml to new kits.yml
+[00:34:32] [Server thread/INFO] [Essentials/]: No kits found to migrate.
+[00:34:32] [Server thread/INFO] [Essentials/]: Creating config from template: plugins/Essentials/tpr.yml
+[00:34:32] [Server thread/INFO] [Essentials/]: Starting Essentials ban format conversion
+[00:34:32] [Server thread/INFO] [Essentials/]: Attempting to migrate ignore list to UUIDs
+[00:34:32] [Server thread/INFO] [Essentials/]: Attempting to migrate legacy userdata keys to Configurate
+[00:34:32] [Server thread/INFO] [Essentials/]: Done converting random teleport config.
+[00:34:32] [Server thread/INFO] [Essentials/]: Creating config from template: plugins/Essentials/worth.yml
+[00:34:32] [Server thread/INFO] [Essentials/]: Loaded 42779 items from items.json.
+[00:34:32] [Server thread/INFO] [Essentials/]: Creating config from template: plugins/Essentials/custom_items.yml
+[00:34:32] [Server thread/INFO] [Essentials/]: Using locale en
+[00:34:32] [Server thread/INFO] [Essentials/]: ServerListPingEvent: Spigot iterator API
+[00:34:32] [Server thread/INFO] [Essentials/]: Starting Metrics. Opt-out using the global bStats config.
+[00:34:32] [Server thread/WARN] [Essentials/]: Detected supported permissions plugin LuckPerms without Vault installed.
+[00:34:32] [Server thread/WARN] [Essentials/]: Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[00:34:32] [Server thread/INFO] [Essentials/]: Using superperms-based permissions.
+[00:34:32] [Server thread/INFO] [com.ranull.graves.Graves/]: [Graves] Enabling Graves v4.9
+[00:34:32] [Server thread/INFO] [com.ranull.graves.Graves/]: [Graves] Integration: Hooked into ProtocolLib 5.3.0.
+[00:34:32] [Server thread/INFO] [com.ranull.graves.Graves/]: [Graves] Compatibility: Essentials Detected, make sure you don't have the essentials.keepinv or essentials.keepxp permissions.
+[00:34:32] [Server thread/INFO] [[38;5;11m⚡[0m/]: Enabling LagFixer v1.3.31 (build 95)[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;15mRemember to leave a rating![0m [38;5;11m[1m★ ★ ★ ★ ★
+
+
+
+
+
+[38;5;15mLagFixer - Best Performance Solution![0m
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░██╗░░░░░░█████╗░░██████╗░░░███████╗██╗██╗░░██╗███████╗██████╗░░
+░██║░░░░░██╔══██╗██╔════╝░░░██╔════╝██║╚██╗██╔╝██╔════╝██╔══██╗░
+░██║░░░░░███████║██║░░██╗░░░█████╗░░██║░╚███╔╝░█████╗░░██████╔╝░
+░██║░░░░░██╔══██║██║░░╚██╗░░██╔══╝░░██║░██╔██╗░██╔══╝░░██╔══██╗░
+░███████╗██║░░██║╚██████╔╝░░██║░░░░░██║██╔╝╚██╗███████╗██║░░██║░
+░╚══════╝╚═╝░░╚═╝░╚═════╝░░░╚═╝░░░░░╚═╝╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+
+
+
+[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mErrorsManager[38;5;8m) [38;5;246m-> [38;5;15mEnabling manager...[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]:  [38;5;8m• [0mStarted listening for console LagFixer errors![0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mErrorsManager[38;5;8m) [38;5;246m-> [38;5;15mEnabled manager in [38;5;11m0ms[38;5;15m![0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mSupportManager[38;5;8m) [38;5;246m-> [38;5;15mEnabling manager...[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]:  [38;5;8m• [0mLoaded creatures 226 to creature container![0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]:  [38;5;8m• [0mLoaded items 20 to item container![0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]:  [38;5;8m• [0mLoaded fork support ~ xyz.lychee.lagfixer.support.Spigot[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]:  [38;5;8m• [0mLoaded nms support ~ xyz.lychee.lagfixer.nms.v1_16_R3.SupportNms[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mSupportManager[38;5;8m) [38;5;246m-> [38;5;15mEnabled manager in [38;5;11m27ms[38;5;15m![0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mConfigManager[38;5;8m) [38;5;246m-> [38;5;15mEnabling manager...[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]:  [38;5;8m• [0mConfiguration loader overrided key [38;5;8m'[38;5;11mmain.prefix[38;5;8m' [38;5;246m→ [38;5;172m[38;5;8m[[38;5;11m[1m⚡[38;5;8m] [0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]:  [38;5;8m• [0mConfiguration loader overrided key [38;5;8m'[38;5;11mmain.prefix_hover[38;5;8m' [38;5;246m→ [38;5;172mtrue[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]:  [38;5;8m• [0mConfiguration loader overrided key [38;5;8m'[38;5;11mmain.threads[38;5;8m' [38;5;246m→ [38;5;172m1[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]:  [38;5;8m• [0mConfiguration loader overrided key [38;5;8m'[38;5;11mmain.monitor_interval[38;5;8m' [38;5;246m→ [38;5;172m5[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]:  [38;5;8m• [0mConfiguration loader overrided key [38;5;8m'[38;5;11mmain.map_interval[38;5;8m' [38;5;246m→ [38;5;172m3[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]:  [38;5;8m• [0mConfiguration loader overrided key [38;5;8m'[38;5;11mmain.errors_reporter[38;5;8m' [38;5;246m→ [38;5;172mtrue[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]:  [38;5;8m• [0mConfiguration loader overrided key [38;5;8m'[38;5;11mmain.updater[38;5;8m' [38;5;246m→ [38;5;172mtrue[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]:  [38;5;8m• [0mConfiguration loader overrided key [38;5;8m'[38;5;11mmain.warnings[38;5;8m' [38;5;246m→ [38;5;172mtrue[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]:  [38;5;8m• [0mConfiguration loader overrided key [38;5;8m'[38;5;11mmain.bStats[38;5;8m' [38;5;246m→ [38;5;172mtrue[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]:  [38;5;8m• [0mConfiguration loader overrided key [38;5;8m'[38;5;11mmain.command[38;5;8m' [38;5;246m→ [38;5;172mMemorySection[path='main.command', root='YamlConfiguration'][0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]:  [38;5;8m• [0mConfiguration loader overrided key [38;5;8m'[38;5;11mmodules[38;5;8m' [38;5;246m→ [38;5;172mMemorySection[path='modules', root='YamlConfiguration'][0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mConfigManager[38;5;8m) [38;5;246m-> [38;5;15mEnabled manager in [38;5;11m117ms[38;5;15m![0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mHookManager[38;5;8m) [38;5;246m-> [38;5;15mEnabling manager...[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]:  [38;5;8m• [0mSucessfully loaded hook spark in 4ms![0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mHookManager[38;5;8m) [38;5;246m-> [38;5;15mEnabled manager in [38;5;11m5ms[38;5;15m![0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mMetricsManager[38;5;8m) [38;5;246m-> [38;5;15mEnabling manager...[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mMetricsManager[38;5;8m) [38;5;246m-> [38;5;15mEnabled manager in [38;5;11m4ms[38;5;15m![0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mUpdaterManager[38;5;8m) [38;5;246m-> [38;5;15mEnabling manager...[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mUpdaterManager[38;5;8m) [38;5;246m-> [38;5;15mEnabled manager in [38;5;11m0ms[38;5;15m![0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mModuleManager[38;5;8m) [38;5;246m-> [38;5;15mEnabling manager...[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]:  [38;5;8m• [0mSucessfully loaded module InstantLeafDecay in 2ms.[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]:  [38;5;8m• [0mSucessfully loaded module RedstoneLimiter in 17ms.[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]:  [38;5;8m• [0mSucessfully loaded module WorldCleaner in 36ms.[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]:  [38;5;8m• [0mSucessfully loaded module CustomAi in 57ms.[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]:  [38;5;8m• [0mSucessfully loaded module CustomVehicles in 11ms.[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]:  [38;5;8m• [0mSucessfully loaded module EntityLimiter in 9ms.[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]:  [38;5;8m• [0mSucessfully loaded module LagMonitor in 7ms.[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mModuleManager[38;5;8m) [38;5;246m-> [38;5;15mEnabled manager in [38;5;11m154ms[38;5;15m![0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mCommandManager[38;5;8m) [38;5;246m-> [38;5;15mEnabling manager...[0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mCommandManager[38;5;8m) [38;5;246m-> [38;5;15mEnabled manager in [38;5;11m18ms[38;5;15m![0m
+[00:34:33] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;15mRemember to leave a rating![0m [38;5;11m[1m★ ★ ★ ★ ★[0m
+[00:34:33] [Server thread/INFO] [com.alonsoaliaga.betterrevive.BetterRevive/]: [BetterRevive] Enabling BetterRevive v0.9.1-BETA
+[00:34:33] [Server thread/INFO] [/]: [BetterRevive] Inventory title with support for more than 32 characters. Skipping..
+[00:34:33] [Server thread/INFO] [/]: [BetterRevive] Hex colors are available! Ready for RGB..
+[00:34:33] [Server thread/INFO] [/]: [BetterRevive] Old constructor for HoverEvent found! Using it..
+[00:34:33] [Server thread/INFO] [/]: [BetterRevive] New sendTitle method found! Using it..
+[00:34:33] [Server thread/INFO] [/]: [BetterRevive] New setUnbreakable method found! Using it..
+[00:34:33] [Server thread/INFO] [/]: [BetterRevive] New isUnbreakable method found! Using it..
+[00:34:33] [Server thread/INFO] [/]:   ___      _   _           ___         _         
+[00:34:33] [Server thread/INFO] [/]:  | _ ) ___| |_| |_ ___ _ _| _ \_____ _(_)_ _____ 
+[00:34:33] [Server thread/INFO] [/]:  | _ \/ -_)  _|  _/ -_) '_|   / -_) V / \ V / -_)
+[00:34:33] [Server thread/INFO] [/]:  |___/\___|\__|\__\___|_| |_|_\___|\_/|_|\_/\___|
+[00:34:33] [Server thread/INFO] [/]: 
+[00:34:33] [Server thread/INFO] [/]:    Running plugin BetterRevive v0.9.1-BETA (v1_16)
+[00:34:33] [Server thread/INFO] [/]:    Server running Mohist version 1.16.5-1241 (MC: 1.16.5)
+[00:34:33] [Server thread/INFO] [/]:    (Implementing API version 1.16.5-1241 (MC: 1.16.5))
+[00:34:33] [Server thread/INFO] [/]:    (Developed by  AlonsoAliaga - Thanks for using my plugin ❤)
+[00:34:33] [Server thread/INFO] [/]:    If you loved the plugin consider leaving a review and mentioning your server IP in it!
+[00:34:33] [Server thread/INFO] [/]: 
+[00:34:33] [Server thread/INFO] [/]: ==============================================================================================
+[00:34:33] [Server thread/INFO] [/]: [BetterRevive] You are using a Spigot or a Spigot fork (Mohist), plugin should work fine!
+[00:34:33] [Server thread/INFO] [/]: [BetterRevive] If you have issues, join us on our official support server on alonsoaliaga.com/discord
+[00:34:33] [Server thread/INFO] [/]: ==============================================================================================
+[00:34:33] [Server thread/INFO] [/]: 
+[00:34:33] [Server thread/INFO] [/]: [BetterRevive] BungeeCord action bar available. Hooking..
+[00:34:33] [Server thread/INFO] [/]: [BetterRevive] ProtocolLib found! Checking..
+[00:34:33] [Server thread/INFO] [/]: [BetterRevive] Creating datafolder '/BetterRevive/ ..'
+[00:34:33] [Server thread/INFO] [/]: [Auto-update] Adding default configuration in path: Options.Hooks.AdvancedEnchantments.Enabled
+[00:34:33] [Server thread/INFO] [/]: [Auto-update] Adding default configuration in path: Options.Hooks.AdvancedEnchantments.Blocked-enchantments
+[00:34:33] [Server thread/INFO] [/]: [Auto-update] Configuration config.yml is up-to-date!
+[00:34:33] [Server thread/INFO] [/]: [BetterRevive] Factions hook is enabled but couldn't find any supported faction plugin were found. Disabling hook..
+[00:34:33] [Server thread/INFO] [/]: [BetterRevive] Finish off feature has been enabled! Players can finish off other player!
+[00:34:33] [Server thread/INFO] [/]: [BetterRevive] Finish off health: 20 | Finish off damage multiplier: 0.5
+[00:34:33] [Server thread/INFO] [/]: [BetterRevive] DamageCause for finish off is empty! All damage cause will be allowed to finish off players. (Includes DROWING, FIRE, LAVA, etc)
+[00:34:33] [Server thread/INFO] [/]: [BetterRevive] Bleeding mode is 0! Plugin will select the best option for your server!
+[00:34:33] [Server thread/INFO] [/]: [BetterRevive] Server version is v1_16. Players will look like swimming while bleeding! (Mode 2)
+[00:34:33] [Server thread/INFO] [/]: [BetterRevive] Loaded 1 bleeding effects.
+[00:34:33] [Server thread/INFO] [/]: [BetterRevive] Loaded 1 revived effect.
+[00:34:34] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[00:34:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (17.586s)! For help, type "help"
+[00:34:34] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {SPAWN_DRAGON_SKELETON_I_CF=true, HYDRA_CAVE_CF=true, SPAWN_SEA_SERPENT_CF=true, SPAWN_STYMPHALIAN_BIRD_CF=true, SPAWN_WANDERING_CYCLOPS_CF=true, PIXIE_VILLAGE_CF=false, SPAWN_DEATH_WORM_CF=true, FIRE_DRAGON_CAVE_CF=true, SIREN_ISLAND_CF=true, MYRMEX_HIVE_DESERT_CF=true, SPAWN_HIPPOCAMPUS_CF=true, FIRE_DRAGON_ROOST_CF=true, MYRMEX_HIVE_JUNGLE_CF=true, GORGON_TEMPLE_CF=true, COPPER_ORE_CF=true, SILVER_ORE_CF=true, LIGHTNING_DRAGON_CAVE_CF=true, SPAWN_DRAGON_SKELETON_F_CF=true, AMETHYST_ORE_CF=true, SPAWN_DRAGON_SKELETON_L_CF=true, LIGHTNING_LILY_CF=true, MAUSOLEUM_CF=true, ICE_DRAGON_CAVE_CF=true, GRAVEYARD_CF=true, SAPPHIRE_ORE_CF=true, LIGHTNING_DRAGON_ROOST_CF=true, CYCLOPS_CAVE_CF=true, FROST_LILY_CF=true, FIRE_LILY_CF=true, ICE_DRAGON_ROOST_CF=true}
+[00:34:34] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[00:34:34] [Server thread/INFO] [com.ranull.graves.Graves/]: [Graves] Information: Mohist detected, not injecting custom recipes.
+[00:34:34] [Craft Scheduler Thread - 8/INFO] [Essentials/]: Fetching version information...
+[00:34:34] [Craft Scheduler Thread - 6/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[00:34:34] [Craft Scheduler Thread - 6/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[00:34:34] [Craft Scheduler Thread - 6/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[00:34:34] [Craft Scheduler Thread - 6/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[00:34:34] [Craft Scheduler Thread - 6/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[00:34:34] [Craft Scheduler Thread - 6/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[00:34:34] [Craft Scheduler Thread - 6/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[00:34:34] [Craft Scheduler Thread - 6/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.4.4[0;39m
+[00:34:34] [Craft Scheduler Thread - 6/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1mdc501c7[0;39m
+[00:34:34] [Craft Scheduler Thread - 6/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[00:34:34] [Craft Scheduler Thread - 6/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[00:34:34] [Craft Scheduler Thread - 6/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[00:34:34] [Craft Scheduler Thread - 6/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[00:34:35] [Craft Scheduler Thread - 9/INFO] [/]: [BetterRevive] Checking for updates...
+[00:34:35] [Craft Scheduler Thread - 9/INFO] [/]: [BetterRevive] Plugin up-to-date! You have the latest version!
+[00:35:04] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player zRaptorleo is 07697c04-5530-4ab5-9665-1a98b859bcca
+[00:35:04] [Netty Epoll Server IO #2/ERROR] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channels [mowziesmobs:net,geckolib3:main] rejected their client side version number
+[00:35:04] [Netty Epoll Server IO #2/ERROR] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[00:35:04] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@19dec412[id=07697c04-5530-4ab5-9665-1a98b859bcca,name=zRaptorleo,properties={textures=[com.mojang.authlib.properties.Property@1f90fb3b]},legacy=false] (/127.106.230.135:43853) lost connection: Connection closed - mismatched mod channel list
+[00:35:09] [User Authenticator #2/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player zRaptorleo is 07697c04-5530-4ab5-9665-1a98b859bcca
+[00:35:10] [Netty Epoll Server IO #4/ERROR] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channels [mowziesmobs:net,geckolib3:main] rejected their client side version number
+[00:35:10] [Netty Epoll Server IO #4/ERROR] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[00:35:10] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@a5600d3[id=07697c04-5530-4ab5-9665-1a98b859bcca,name=zRaptorleo,properties={textures=[com.mojang.authlib.properties.Property@1f0cfa53]},legacy=false] (/127.106.230.135:41245) lost connection: Connection closed - mismatched mod channel list
+[00:35:29] [User Authenticator #3/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player zRaptorleo is 07697c04-5530-4ab5-9665-1a98b859bcca
+[00:35:29] [Netty Epoll Server IO #7/ERROR] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channels [mowziesmobs:net,geckolib3:main] rejected their client side version number
+[00:35:29] [Netty Epoll Server IO #7/ERROR] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[00:35:29] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@3b415717[id=07697c04-5530-4ab5-9665-1a98b859bcca,name=zRaptorleo,properties={textures=[com.mojang.authlib.properties.Property@fd5aedd]},legacy=false] (/127.106.230.135:40751) lost connection: Connection closed - mismatched mod channel list
+[00:36:10] [User Authenticator #4/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player zRaptorleo is 07697c04-5530-4ab5-9665-1a98b859bcca
+[00:36:10] [Netty Epoll Server IO #1/ERROR] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channels [mowziesmobs:net,geckolib3:main] rejected their client side version number
+[00:36:10] [Netty Epoll Server IO #1/ERROR] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[00:36:10] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@58fa59d2[id=07697c04-5530-4ab5-9665-1a98b859bcca,name=zRaptorleo,properties={textures=[com.mojang.authlib.properties.Property@311d9a5]},legacy=false] (/127.106.230.135:38575) lost connection: Connection closed - mismatched mod channel list
+[00:36:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nothing changed. The player already is an operator
+[00:36:28] [User Authenticator #5/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player zRaptorleo is 07697c04-5530-4ab5-9665-1a98b859bcca
+[00:36:29] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channels [mowziesmobs:net,geckolib3:main] rejected their client side version number
+[00:36:29] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[00:36:29] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@3a9e813[id=07697c04-5530-4ab5-9665-1a98b859bcca,name=zRaptorleo,properties={textures=[com.mojang.authlib.properties.Property@7945b30a]},legacy=false] (/127.106.230.135:35253) lost connection: Connection closed - mismatched mod channel list
+[00:37:46] [User Authenticator #6/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player zRaptorleo is 07697c04-5530-4ab5-9665-1a98b859bcca
+[00:37:46] [Netty Epoll Server IO #5/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 9 mods : minecraft, otyacraftengine, mowziesmobs, iammusicplayer, forge, biomesoplenty, geckolib3, citadel, iceandfire
+[00:37:47] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: zRaptorleo[/127.106.230.135:39219] logged in with entity id 274 at (-92.369, 68, -141.117)
+[00:37:48] [Server thread/INFO] [Essentials/]: Created a User for zRaptorleo (07697c04-5530-4ab5-9665-1a98b859bcca) for non Bukkit type: org.bukkit.craftbukkit.v1_16_R3.entity.CraftPlayer
+[00:37:48] [Server thread/WARN] [Essentials/]: File motd.txt does not exist. Creating one for you.
+[00:38:21] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /plugin
+[00:38:26] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /plugins
+[00:38:58] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /spark ping
+[00:39:06] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /tps
+[00:39:16] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /lagfixer:antilag
+[00:39:30] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /lagfixer ping
+[00:39:33] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /lagfixer ping
+[00:39:40] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /gamemode survival
+[00:39:50] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /gamemode creative
+[00:40:01] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo lost connection: Disconnected
+[00:40:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: zRaptorleo left the game
+[00:40:21] [User Authenticator #7/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player zRaptorleo is 07697c04-5530-4ab5-9665-1a98b859bcca
+[00:40:21] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 9 mods : minecraft, otyacraftengine, mowziesmobs, iammusicplayer, forge, biomesoplenty, geckolib3, citadel, iceandfire
+[00:40:22] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: zRaptorleo[/127.106.230.135:36931] logged in with entity id 535 at (-49.425, 71, -172.98)
+[00:41:12] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /plugins
+[00:41:32] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /gamemode survival
+[00:41:37] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /gamemode creative
+[00:41:40] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /gamemode survival
+[00:41:41] [Server thread/INFO] [/]: [BetterRevive] Absorption amount using reflections is not available!
+[00:41:41] [Server thread/INFO] [/]: %vault_prefix% zRaptorleo is bleeding..
+[00:41:45] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /giveup
+[00:41:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: zRaptorleo died
+[00:42:04] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /gamemode creative
+[00:42:10] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /gamemode survival
+[00:42:14] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /gamemode creative
+[00:42:19] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /gamemode survival
+[00:42:20] [Server thread/INFO] [/]: %vault_prefix% zRaptorleo is bleeding..
+[00:42:26] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /giveup
+[00:42:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: zRaptorleo died
+[00:42:48] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /tps
+[00:43:06] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /spark profiler
+[00:43:13] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /spark tickmonitor
+[00:43:13] [Server thread/INFO] [/]: [⚡] Tick monitor started. Before the monitor becomes fully active, the server's average tick rate will be calculated over a period of 120 ticks (approx 6 seconds).
+[00:43:19] [Craft Scheduler Thread - 8/INFO] [/]: [⚡] Analysis is now complete.
+[00:43:19] [Craft Scheduler Thread - 8/INFO] [/]: [⚡] > Max: 50.16ms
+[00:43:19] [Craft Scheduler Thread - 8/INFO] [/]: [⚡] > Min: 49.84ms
+[00:43:19] [Craft Scheduler Thread - 8/INFO] [/]: [⚡] > Average: 50ms
+[00:43:19] [Craft Scheduler Thread - 8/INFO] [/]: [⚡] Starting now, any ticks with >100.0% increase in duration compared to the average will be reported.
+[00:43:26] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /clearlag:lagg zRaptorleo
+[00:43:30] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /lagg
+[00:43:38] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /lagg performance
+[00:43:53] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /gamemode creative
+[00:43:54] [Craft Scheduler Thread - 16/INFO] [/]: [⚡] Tick #813 included GC lasting 31 ms. (type = Young Gen)
+[00:43:54] [Craft Scheduler Thread - 13/INFO] [/]: [⚡] Tick #813 lasted 191.78 ms. (283.56% increase from avg)
+[00:43:55] [Craft Scheduler Thread - 13/INFO] [/]: [⚡] Tick #828 included GC lasting 13 ms. (type = end of concurrent GC pause)
+[00:43:55] [Craft Scheduler Thread - 16/INFO] [/]: [⚡] Tick #833 included GC lasting 0 ms. (type = end of concurrent GC pause)
+[00:44:10] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /ping
+[00:44:17] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /spark ping --player
+[00:44:23] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /spark ping
+[00:44:28] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /spark ping
+[00:44:32] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo issued server command: /spark ping
+[00:44:34] [Craft Scheduler Thread - 13/INFO] [/]: [⚡] Tick #1613 lasted 212.36 ms. (324.72% increase from avg)
+[00:44:44] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: zRaptorleo lost connection: Disconnected
+[00:44:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: zRaptorleo left the game
+[00:44:57] [Craft Scheduler Thread - 16/INFO] [/]: [⚡] Tick #2077 included GC lasting 28 ms. (type = Young Gen)
+[00:45:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[00:45:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[00:45:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[00:45:00] [Server thread/INFO] [net.skinsrestorer.bukkit.SRBukkitBootstrap/]: [SkinsRestorer] Disabling SkinsRestorer v15.4.4
+[00:45:00] [Server thread/INFO] [com.alonsoaliaga.betterrevive.BetterRevive/]: [BetterRevive] Disabling BetterRevive v0.9.1-BETA
+[00:45:00] [Server thread/INFO] [/]:  
+[00:45:00] [Server thread/INFO] [/]: [BetterRevive] Plugin has been disabled!
+[00:45:00] [Server thread/INFO] [/]: [BetterRevive] Thank you for using my plugin!
+[00:45:00] [Server thread/INFO] [/]:  
+[00:45:00] [Server thread/INFO] [[38;5;11m⚡[0m/]: Disabling LagFixer v1.3.31 (build 95)[0m
+[00:45:00] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mErrorsManager[38;5;8m) [38;5;246m-> [38;5;15mDisabling manager...[0m
+[00:45:00] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mErrorsManager[38;5;8m) [38;5;246m-> [38;5;15mDisabled manager in [38;5;11m0ms[38;5;15m![0m
+[00:45:00] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mSupportManager[38;5;8m) [38;5;246m-> [38;5;15mDisabling manager...[0m
+[00:45:00] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mSupportManager[38;5;8m) [38;5;246m-> [38;5;15mDisabled manager in [38;5;11m0ms[38;5;15m![0m
+[00:45:00] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mConfigManager[38;5;8m) [38;5;246m-> [38;5;15mDisabling manager...[0m
+[00:45:00] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mConfigManager[38;5;8m) [38;5;246m-> [38;5;15mDisabled manager in [38;5;11m0ms[38;5;15m![0m
+[00:45:00] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mHookManager[38;5;8m) [38;5;246m-> [38;5;15mDisabling manager...[0m
+[00:45:00] [Server thread/INFO] [[38;5;11m⚡[0m/]:  [38;5;8m• [0mSucessfully disabled hook spark in 0ms![0m
+[00:45:00] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mHookManager[38;5;8m) [38;5;246m-> [38;5;15mDisabled manager in [38;5;11m0ms[38;5;15m![0m
+[00:45:00] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mMetricsManager[38;5;8m) [38;5;246m-> [38;5;15mDisabling manager...[0m
+[00:45:00] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mMetricsManager[38;5;8m) [38;5;246m-> [38;5;15mDisabled manager in [38;5;11m0ms[38;5;15m![0m
+[00:45:00] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mUpdaterManager[38;5;8m) [38;5;246m-> [38;5;15mDisabling manager...[0m
+[00:45:00] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mUpdaterManager[38;5;8m) [38;5;246m-> [38;5;15mDisabled manager in [38;5;11m0ms[38;5;15m![0m
+[00:45:00] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mModuleManager[38;5;8m) [38;5;246m-> [38;5;15mDisabling manager...[0m
+[00:45:00] [Server thread/INFO] [[38;5;11m⚡[0m/]:  • Sucessfully disabled module InstantLeafDecay in 1ms.[0m
+[00:45:00] [Server thread/INFO] [[38;5;11m⚡[0m/]:  • Sucessfully disabled module RedstoneLimiter in 0ms.[0m
+[00:45:00] [Server thread/INFO] [[38;5;11m⚡[0m/]:  • Sucessfully disabled module WorldCleaner in 0ms.[0m
+[00:45:00] [Server thread/INFO] [[38;5;11m⚡[0m/]:  • Sucessfully disabled module CustomAi in 0ms.[0m
+[00:45:00] [Server thread/INFO] [[38;5;11m⚡[0m/]:  • Sucessfully disabled module CustomVehicles in 1ms.[0m
+[00:45:00] [Server thread/INFO] [[38;5;11m⚡[0m/]:  • Sucessfully disabled module EntityLimiter in 0ms.[0m
+[00:45:00] [Server thread/INFO] [[38;5;11m⚡[0m/]:  • Sucessfully disabled module LagMonitor in 0ms.[0m
+[00:45:00] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mModuleManager[38;5;8m) [38;5;246m-> [38;5;15mDisabled manager in [38;5;11m3ms[38;5;15m![0m
+[00:45:00] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mCommandManager[38;5;8m) [38;5;246m-> [38;5;15mDisabling manager...[0m
+[00:45:00] [Server thread/INFO] [[38;5;11m⚡[0m/]: [38;5;8m([38;5;11mCommandManager[38;5;8m) [38;5;246m-> [38;5;15mDisabled manager in [38;5;11m0ms[38;5;15m![0m
+[00:45:00] [Server thread/INFO] [com.ranull.graves.Graves/]: [Graves] Disabling Graves v4.9
+[00:45:00] [Server thread/INFO] [com.comphenix.protocol.ProtocolLib/]: [ProtocolLib] Disabling ProtocolLib v5.3.0
+[00:45:00] [Server thread/INFO] [Essentials/]: Disabling Essentials v2.21.0-dev+141-c7cc1b4
+[00:45:00] [Server thread/INFO] [de.tr7zw.nbtapi.plugin.NBTAPI/]: [NBTAPI] Disabling NBTAPI v2.14.0
+[00:45:00] [Server thread/INFO] [at.pcgamingfreaks.MinepacksStandalone.Bukkit.Minepacks/]: [Minepacks] Disabling Minepacks v2.4.31.4-T20240629215752
+[00:45:01] [Server thread/INFO] [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource/]: Minepacks-Connection-Pool - Shutdown initiated...
+[00:45:01] [Server thread/INFO] [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource/]: Minepacks-Connection-Pool - Shutdown completed.
+[00:45:01] [Server thread/INFO] [at.pcgamingfreaks.MinepacksStandalone.Bukkit.Minepacks/]: [Minepacks] [31m Minepacks has been disabled. [33m :( [0m
+[00:45:01] [Server thread/INFO] [me.lucko.spark.bukkit.BukkitSparkPlugin/]: [spark] Disabling spark v1.10.71
+[00:45:01] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Disabling LuckPerms v5.4.131
+[00:45:01] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Starting shutdown process...
+[00:45:01] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Closing storage...
+[00:45:01] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Goodbye!
+[00:45:01] [Server thread/INFO] [me.minebuilders.clearlag.Clearlag/]: [ClearLag] Disabling ClearLag v3.2.2
+[00:45:01] [Server thread/INFO] [Minecraft/]: [ClearLag] Clearlag is now disabled!
+[00:45:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[00:45:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:45:01] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:45:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
+[00:45:01] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:45:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
+[00:45:01] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:45:01] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:45:01] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:45:01] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
